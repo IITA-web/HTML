@@ -25,3 +25,8 @@ h1, h2, h3, h4, h5 {
 p, .btn, html {
 	font-family: 'Open Sans', sans-serif;
 }
+
+.hero-text {
+	position:relative;
+	padding-top:50px;
+}
