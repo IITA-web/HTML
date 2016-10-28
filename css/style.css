@@ -3,3 +3,12 @@
 .container {
 	max-width: 960px;
 }
+
+#hero{
+  background: linear-gradient(135deg,  rgba(83,15,173,0.8) 0%,rgba(166,0,166,0.8) 50%,rgba(27,27,179,0.8) 100%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  			url(../images/1400_banner.jpg);
+  background-size:cover;
+  background-position: center;
+  position:relative;
+  height:400px;
+}
