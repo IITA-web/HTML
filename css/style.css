@@ -38,3 +38,19 @@ nav {
 h5 {
     font-weight: bold;
 }
+
+.brand-logo {
+  margin-top: 5px;
+}
+
+.regbtn {
+  width: 130px;
+}
+
+.seabtn {
+  width: 118px;
+}
+
+.regbtn, .seabtn {
+  margin: 0 auto;
+}
