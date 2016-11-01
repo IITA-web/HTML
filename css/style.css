@@ -30,3 +30,7 @@ nav {
 	position:relative;
 	z-index:2;
 }
+
+.hero-button {
+    font-weight: bold;
+}
