@@ -1,8 +1,9 @@
 @import url("materialize.min.css");
 
+/*
 .container {
 	max-width: 960px;
-}
+} */
 
 #hero{
   background: linear-gradient(135deg,  rgba(83,15,173,0.8) 0%,rgba(166,0,166,0.8) 50%,rgba(27,27,179,0.8) 100%), /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -51,6 +52,10 @@ h5 {
   width: 118px;
 }
 
-.regbtn, .seabtn {
+.appbtn {
+  width: 103px;
+}
+
+.regbtn, .seabtn, .appbtn {
   margin: 0 auto;
 }
