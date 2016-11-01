@@ -12,6 +12,7 @@
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 	  <title>Training system - Home</title>
     </head>
 	
@@ -37,6 +38,28 @@
 				</div>
 			</div>
 			<section class="container">
+				<p>Choose the type of training</p>
+					<div class="row">
+					    <form class="col s12">
+					    	<div class="row">
+					        	<div class="input-field col s12">
+								    <select class="indigo-text darken-3">
+									    <option value="" disabled selected>Choose your option</option>
+									    <option value="1">Graduate Trainee</option>
+									    <option value="2">Group</option>
+									    <option value="3">Internship</option>
+									    <option value="4">Sabbatical</option>
+									</select>
+					  			</div>
+					      	</div>
+					    </form>
+					    <a class="waves-effect waves-light btn deep-purple darken-4" href="#">Start application</a>
+					</div>
+				<div class="divider"></div>
+				<div class="section">
+					<h5 class="boldtext">IITA Staff</h5>
+					<p>Are you an IITA Staff? Then <a href="#"  class="indigo-text darken-3 boldtext">login</a> to start a training application</p>
+				</div>
 			</section>
 		</main>
 		<footer class="row page-footer grey lighten-1">
@@ -58,5 +81,10 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript">
+      	 $(document).ready(function() {
+    			$('select').material_select();
+  			});
+      </script>
     </body>
   </html>
