@@ -32,7 +32,7 @@ nav {
 	z-index:2;
 }
 
-.hero-button {
+.hero-button, .boldtext {
     font-weight: bold;
 }
 
