@@ -11,7 +11,6 @@
   background-position: center;
   position:relative;
   height:300px;
-  z-index: -1;
 }
 
 main {
@@ -29,4 +28,9 @@ p, .btn, html {
 .hero-text {
 	position:relative;
 	padding-top:50px;
+}
+
+nav {
+	position:relative;
+	z-index:2;
 }
