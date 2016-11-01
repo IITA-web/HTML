@@ -72,3 +72,7 @@ h5 {
   font-size: 2.5em;
   color:#fff;
 }
+
+.parallax-container {
+      height: 300px;
+    }
