@@ -29,7 +29,6 @@ p, .btn, html {
 
 nav {
 	position:relative;
-	z-index:2;
 }
 
 .hero-button, .boldtext {
@@ -78,4 +77,71 @@ h5 {
     }
 .heroshadow {
 text-shadow: 2px 2px 2px rgba(15, 15, 15, 0.5);
+}
+
+#maintext {
+  position: absolute;
+  margin: 10px 0 0 190px;
+  display: inline-block;
+  width: 270px;
+}
+ #maintext h5 {
+  font-size: 1.2em;
+  text-align: center;
+ }
+
+@media only screen and (max-width: 960px) {
+    #maintext {
+      margin: 60px auto 0;
+      left:36%;
+      display: block;
+    }
+    nav {
+      height: 100px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    #maintext {
+      left:35%;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    #maintext {
+      left:33%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #maintext {
+      left:31%;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    #maintext {
+      left:28%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #maintext {
+      left:25%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #maintext {
+      left:19%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #maintext {
+      left:12%;
+    }
+    #hero {
+      height: 350px;
+    }
 }

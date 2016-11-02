@@ -21,12 +21,39 @@
 				<div class="container">
 					<div class="brand-logo">
 						<img src="images/train_50.png">
+						
 					</div>
-					<ul id="nav-mobile" class="right">
-						<li ><a href="index.html" class="indigo-text darken-3">Home</a></li>
-						<li ><a href="login.html" class="indigo-text darken-3">Log in</a></li>
-						<li ><a href="#" class="indigo-text darken-3">Help</a></li>
-					</ul>
+					<div id="maintext">
+						<h5 class="grey-text text-darken-2">IITA CDO Training system</h5>
+					</div>
+					<div class="nav-wrapper">
+					
+				      	<a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons indigo-text darken-3">menu</i></a>
+				      	<ul id="dropdown1" class="dropdown-content">
+				      		<li><a href="login.html">Log in</a></li>
+  							<li><a href="#!">one</a></li>
+  							<li><a href="#!">two</a></li>
+  							<li class="divider"></li>
+  							<li><a href="#!">three</a></li>
+						</ul>
+						<ul id="dropdown2" class="dropdown-content">
+				      		<li><a href="login.html">Log in</a></li>
+  							<li><a href="#!">one</a></li>
+  							<li><a href="#!">two</a></li>
+  							<li class="divider"></li>
+  							<li><a href="#!">three</a></li>
+						</ul>
+				      	<ul class="right hide-on-med-and-down">
+				        	<li><a href="index.html" class="indigo-text darken-3">Home</a></li>
+				        	<li><a class="dropdown-button indigo-text darken-3" data-activates="dropdown2" href="login.html">Log in<i class="material-icons right">arrow_drop_down</i></a></li>
+				        	<li><a href="#" class="indigo-text darken-3">Help</a></li>
+				      	</ul>
+					    <ul class="side-nav" id="mobile-demo">
+					        <li><a href="index.html">Home</a></li>
+					        <li><a class="dropdown-button" data-activates="dropdown1" href="login.html">Log in<i class="material-icons right">arrow_drop_down</i></a></li>
+					        <li><a href="#">Help</a></li>
+					    </ul>
+				    </div>
 				</div>
 			</nav>
 		</header>
@@ -43,7 +70,7 @@
 					</div>
 				</section>
 
-			<section class="container">
+			<section class="container section">
 				<h4 class="center-align grey-text text-darken-2">Internal training opportunities</h4>
 				<p class="center-align">IITA staff have a set of training options available below.</p>
 			</section>
@@ -148,5 +175,15 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript">
+      	 $(document).ready(function() {
+    			$(".button-collapse").sideNav();
+    			$(".dropdown-button").dropdown();
+  			});
+      </script>
+      <!--<script type="text/javascript">
+      	 $(document).ready(function() {
+          		$(".dropdown-button").dropdown();
+      </script>-->
     </body>
   </html>
